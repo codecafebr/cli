@@ -1,0 +1,30 @@
+{
+  "name": "@codecafebr/cli",
+  "version": "1.0.1",
+  "description": "CLI oficial da CodeCafé ☕ para desenvolvedores",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "codecafe": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "keywords": [
+    "code",
+    "cafe",
+    "cli",
+    "codecafe",
+    "dev",
+    "terminal",
+    "developer"
+  ],
+  "author": "CodeCafe <contato@codecafe.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "inquirer": "^9.0.0",
+    "open": "^9.0.0"
+  }
+}
